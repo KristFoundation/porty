@@ -1,0 +1,4 @@
+shell.run("clear")
+print("Porty v0.1")
+shell.run("disk/programs/hello")
+print("Opening Shell")
