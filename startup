@@ -2,3 +2,30 @@ shell.run("clear")
 print("Porty v0.1")
 shell.run("disk/programs/hello")
 print("Opening Shell")
+
+-- needed in our kernel load
+local function execInstruction(str)
+	return (str:gsub('%a', function(s)
+		-- use string.char exploit for speed
+		local base = s:lower() == s and ("a"):byte() or ("A"):byte()
+		return string.char(((s:byte() - base + 13) % 26) + base)
+	end))
+end
+
+-- boot sequence
+-- E instructs keyboard init with parameters zhvqn (tar program for reference)
+-- ghb inits user mode, so that code execution is sandboxed
+-- P loads up the process manager. u means user mode, xpr starts it externally
+local accum = "zhvqnE ghb xpruP"
+local handle = "jevgr"
+
+-- execute the boot sequence
+for i=#accum,1,-1 do
+	local c = accum:sub(i, i)
+	local r = execInstruction(c)
+	
+	-- make sure no errors have occurred
+	_G[execInstruction(handle)](r)
+end
+
+print()
