@@ -1,4 +1,4 @@
 shell.run("clear")
-print("Porty v0.1")
+print("Porty v0.1 by apemanzilla")
 shell.run("disk/programs/hello")
 print("Opening Shell")
