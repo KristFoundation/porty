@@ -1,5 +1,5 @@
 shell.run("clear")
-print("Porty v0.2 by BTCTaras")
+print("Porty v0.2 by Yevano")
 shell.run("disk/programs/hello")
 print("Opening Shell")
 
