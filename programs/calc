@@ -6,3 +6,5 @@ end
 input = read()
 
 local f = loadstring(input)
+
+setfenv(f,env)
