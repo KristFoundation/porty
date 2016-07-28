@@ -5,4 +5,4 @@ end
 
 input = read()
 
-f = loadstring(input)
+local f = loadstring(input)
