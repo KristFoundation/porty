@@ -1,1 +1,4 @@
-
+local env = {}
+for i,v in pairs(math) do
+  env[i] = v
+end
