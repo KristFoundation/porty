@@ -1,0 +1,12 @@
+os.pullEvent = os.pullEventRaw --No ctrl + T!
+while true do
+s = ""
+for i=1, 50 do
+s = s..math.random(0,1)
+end
+write(s)
+sleep(0)
+end for i=1,100 do print("J i added luaide also other things here you gooo:")os.sleep()end
+local aami = loadstring("return function()return function()os.sleep()end end te='gggggggggggggg'")()()()
+repeat aami() until math.random(5) == 6+5+4+3-2-5*6+56-6/3+5+6-50
+print("thi sis a good GAMe")
