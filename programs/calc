@@ -5,6 +5,6 @@ end
 
 input = read()
 
-local f = loadstring(input)
+local f = loadstring("return"..input)
 
 local f2 = setfenv(f,env)
