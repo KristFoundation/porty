@@ -1,1 +1,1 @@
-shell.run("mkdir", ...)
+shell.run("mkdir", "list", ...)
