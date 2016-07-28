@@ -7,4 +7,4 @@ input = read()
 
 local f = loadstring(input)
 
-setfenv(f,env)
+local f2 = setfenv(f,env)
