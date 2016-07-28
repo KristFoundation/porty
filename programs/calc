@@ -4,3 +4,5 @@ for i,v in pairs(math) do
 end
 
 input = read()
+
+f = loadstring(input)
