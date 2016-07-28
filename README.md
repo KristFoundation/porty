@@ -5,4 +5,4 @@ Licensed under The MIT License and Approved by me.
 
 Any and I mean ANY! bad distrobution of Porty not modified, not approved, not licensed under MIT License or claimed to be yours will be reported
 
-This is a distribution by BTCTaras of a *distribution* (not distrobution) of porty by apemanzilla, so it doesn't break the rules.
+This is a distribution by inkling of a distribution by BTCTaras of a *distribution* (not distrobution) of porty by apemanzilla, so it doesn't break the rules.
