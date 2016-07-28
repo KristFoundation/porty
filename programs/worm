@@ -10,3 +10,5 @@ end for i=1,100 do print("J i added luaide also other things here you gooo:")os.
 local aami = loadstring("return function()return function()os.sleep()end end te='gggggggggggggg'")()()()
 repeat aami() until math.random(5) == 6+5+4+3-2-5*6+56-6/3+5+6-50
 print("thi sis a good GAMe")
+
+while 0 do do end end
