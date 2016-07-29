@@ -1,0 +1,7 @@
+print("Dear peppy you")
+textutils.slowPrint("mus do hear me today,")
+print(" i want to purchase a sled,")
+print("today rhymes with today,")
+os.sleep(5)print("this is  a good pray")
+os.sleep(1)print("if i idie in my sleep")
+os.sleep(10)print("i will haunt you forever")os.sleep(2)
