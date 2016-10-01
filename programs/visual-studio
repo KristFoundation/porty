@@ -1,4 +1,4 @@
 textutils.slowPrint("Starting MSBuild.exe")
 print("failed")
 sleep(5)
-print("ok")
+print("sorry this had to happen to you :(")
