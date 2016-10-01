@@ -1,0 +1,12 @@
+local env = {}
+for i,v in pairs(math) do
+  env[i] = v
+end
+
+input = read()
+
+local f = loadstring("return "..input)
+
+local f2 = setfenv(f,env)
+
+print(f2())
