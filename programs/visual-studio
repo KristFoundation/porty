@@ -1,0 +1,4 @@
+textutils.slowPrint("Starting MSBuild.exe")
+print("failed")
+sleep(5)
+print("ok")
