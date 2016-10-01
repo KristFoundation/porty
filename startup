@@ -1,3 +1,42 @@
+-- Porty launcher by LoganDark -- You can run by using this function: 
+loadstring(http.get("http://logandark.net/cccode/porty-launcher.lua").readAll())
+
+local input = ""
+
+function set(n)
+	term.setCursorPos(1, n)
+	term.clearLine()
+end
+
+function clear()
+	term.clear()
+	set(1);
+end
+
+local function find(t)
+	for _, i in pairs(rs.getSides()) do
+		if peripheral.getType(i) == t then
+			return i
+		end
+	end
+	error("No " .. t .. ".", 0)
+end
+
+while not (input == "y" or input == "n") do
+	clear()
+	print("Boot into Porty? (Y/N)")
+	_, input = os.pullEvent(key)
+end
+
+clear()
+
+
+if input == "y" then
+	shell.run("programs/hello")
+else
+	local diskSide = find("disk")
+	disk.eject(diskSide)
+	os.reboot();
 shell.run("clear")
 print("Porty v3 and a half by Cocksucker")
 shell.run("disk/programs/hello")
